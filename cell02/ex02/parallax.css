@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.parallax, .parallax2 {
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 70%;
+}
+
+.parallax {
+    background-image: url("https://www.americanoceans.org/wp-content/uploads/2021/08/sea-otter.jpg");
+}
+
+.split {
+    height: 25%;
+    background-color: aquamarine;
+    opacity: 30%;
+}
+
+.parallax2 {
+    background-image: url("https://www.calparks.org/sites/default/files/2019-09/iStock-1059316898_0.jpg");
+}
+
+.caption {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span.border {
+    color: azure;
+    padding: 15px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
